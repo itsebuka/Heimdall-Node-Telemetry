@@ -41,3 +41,16 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# --- STM32 & Build Artifacts ---
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.o
+*.su
+
+# --- CAD / Fusion 360 Caches ---
+*.lock
+*.tmp
